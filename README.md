@@ -18,4 +18,3 @@
 
     - Run the python script:
         - python test1.py
-

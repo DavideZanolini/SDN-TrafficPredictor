@@ -2,6 +2,8 @@ import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
+from sklearn.tree import plot_tree
+import matplotlib.pyplot as plt
 
 col_names = ['pregnant', 'glucose', 'bp', 'skin', 'insulin', 'bmi', 'pedigree', 'age', 'label']
 
@@ -26,3 +28,8 @@ y_pred = clf.predict(X_test)
 
 # Model Accuracy, how often is the classifier correct?
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
+
+# Visualize tree
+plt.figure(figsize=(12,8))
+plot_tree(clf, feature_names=feature_cols, class_names=['0', '1'], filled=True)
+plt.show()
