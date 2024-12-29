@@ -21,6 +21,6 @@
         - python test1.py
 
 
-## !!! When uploading the pcap files in the google drive folder, be sure that you upload a zip file that contains your files!
+### !!! When uploading the pcap files in the google drive folder, be sure that you upload a zip file that contains your files!
 
-## In order to download the pcap files when using pcap_to_csv script, copy the Google Drive folder URL in the terminal when asked.
+### In order to download the pcap files when using pcap_to_csv script, copy the Google Drive folder URL in the terminal when asked.
