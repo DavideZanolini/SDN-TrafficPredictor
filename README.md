@@ -3,7 +3,7 @@
 ### In order to use this project:
 
 1. Clone this repository in a directory on your pc:
-    - git clone https://github.com/DavideZanolini/personal-finance-dashboard.git
+    - git clone https://github.com/DavideZanolini/SDN-traffic-predictor.git
 
 2. Open the directory on a terminal
 
